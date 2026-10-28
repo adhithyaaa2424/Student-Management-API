@@ -11,7 +11,6 @@ public class SpringCrudApplication {
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(SpringCrudApplication.class, args);
 
-//        System.out.println("hello world");
 
         StudentService obj=context.getBean(StudentService.class);
 
